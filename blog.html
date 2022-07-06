@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dani</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a88cf98720.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class = "sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo2.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a>
+                        <li><a href="courses.html">COURSES</a></li>
+                        <li><a href="blog.html">BLOG</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+            </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Certificate & Online Programs For 2022</h1>
+</section>
+
+
+
+<section class="blog-content">
+
+    <div class="row">
+        <div class="blog-left">
+            <img src="images/certificate.jpg">
+            <h2>Our Certificate & Online Programs For 2022</h2>
+            <p>The European Transnational Governance Network (ETGN) is a training
+                and development partnership among eight prestigious European academic
+                and research institutions―including CEU―that offers transnational 
+                perspectives on governance issues in the 21st century. <br> The partnership's 
+                mission is to provide mid-career and senior professionals 
+                with a unique opportunity to deepen and extend their public policy knowledge 
+                and competencies in relation to European and Transnational Governance.
+                <br><br>
+                ETGN develops innovative, interactive and impactful executive education training 
+                initiatives, leveraging the comparative advantages of the academic curricula of 
+                the participating institutions. <br> The training sessions are strongly oriented towards
+                civic service to include civil society and private sector organizations across the world.
+            </p>
+
+            <div class="comment-box">
+                <h3>Leave a Comment</h3>
+
+                <form class="comment-form">
+                    <input type="text" placeholder="Enter Name">
+                    <input type="email" placeholder="Enter Email">
+                    <textarea rows="5" placeholder="Your Comment"></textarea>
+                    <button type="submit" class="hero-btn blue-btn">POST COMMENT</button>
+                </form>
+            </div>
+
+        </div>
+
+        <div class="blog-right">
+            <h3>Post Categories</h3>
+            <div>
+                <span>Business Analyticts</span>
+                <span>21</span>
+            </div>
+            <div>
+                <span>Data Science</span>
+                <span>28</span>
+            </div>
+            <div>
+                <span>Machine Learning</span>
+                <span>32</span>
+            </div>
+            <div>
+                <span>Commerce</span>
+                <span>17</span>
+            </div>
+            <div>
+                <span>AutoCAD</span>
+                <span>47</span>
+            </div>
+            <div>
+                <span>Journalism</span>
+                <span>22</span>
+            </div>
+            <div>
+                <span>Logistics</span>
+                <span>14</span>
+            </div>
+        </div>
+    </div>    
+
+</section>
+
+
+
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>We are one of the largest, most diverse universities in the UK with  
+    over 120,000 students in London, <br> and a further 50,000 studying 
+    across 190 countries for a University of London degree.</p>
+    
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+
+</section>
+
+
+
+
+
+
+<script>
+    
+    var navLinks = document.getElementById("navLinks");
+    
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+
+</body>
+</html>
